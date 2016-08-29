@@ -77,7 +77,7 @@ public class WordCount {
 
             for (final String words : split) {
 
-                if(words.equals("")) {
+                if(words.equals("") || words.length() < 2) {
                     continue;
                 }
 
